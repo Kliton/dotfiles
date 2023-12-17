@@ -1,1 +1,1 @@
-require("kliton.remap")
+require("kliton")
