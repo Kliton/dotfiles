@@ -7,11 +7,12 @@ lsp_zero.on_attach(function(client, bufnr)
 end)
 
 require('mason').setup({})
+
 require('mason-lspconfig').setup({
-	ensure_installed = { "rust_analyzer", "tsserver", "lua_ls", "gopls", "jsonls", },
-	handlers = {
-		lsp_zero.default_setup,
-	},
+  ensure_installed = {"tsserver"},
+  handlers = {
+    lsp_zero.default_setup,
+  },
 })
 
 lsp_zero.set_sign_icons({
