@@ -12,5 +12,5 @@ window:
 font:
   normal:
     family: 'Monaspace neon' 
-  size: 18.0
+  size: 16.0
   AppleFontSmoothing: true
