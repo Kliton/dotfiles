@@ -49,6 +49,7 @@ yabai -m rule --add app="Raycast" manage=off
 yabai -m rule --add app="^Music$" manage=off
 yabai -m rule --add app="^Wave Link$" manage=off
 yabai -m rule --add app="^Spotify$" manage=off
+yabai -m rule --add app="^Toggl Track$" manage=off
 
 #custom opacity
 yabai -m rule --add app="Visual Studio Code" opacity=0.7
