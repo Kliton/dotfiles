@@ -1,7 +1,7 @@
 live_config_reload: true
 
 window:
-  opacity: 0.98
+  opacity: 1 
   padding:
     x: 18
     y: 16
@@ -12,20 +12,20 @@ window:
 font:
   normal:
     family: 'Monaspace Neon'
-  size: 16.0
+  size: 14.0
   AppleFontSmoothing: true
 
 colors:
   primary:
-    background: '0x000000'
+    background: '0x101010'
 
   cursor:
     text: '0xffffff'
     cursor: '0x4d4d4c'
 
-shell:
-  program: /bin/zsh
-  args:
-    - -l
-    - -c 
-    - "source ~/.zshrc; tmux attach 2> /dev/null || tmux"
+#shell:
+#  program: /bin/zsh
+#  args:
+#    - -l
+#    - -c 
+#    - "source ~/.zshrc; tmux attach 2> /dev/null || tmux"
